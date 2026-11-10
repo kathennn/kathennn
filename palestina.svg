@@ -1,0 +1,103 @@
+<svg viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="waveShine" x1="0" x2="1">
+      <stop stop-color="#000" stop-opacity=".28"/>
+      <stop offset=".25" stop-color="#fff" stop-opacity=".16"/>
+      <stop offset=".5" stop-color="#000" stop-opacity=".2"/>
+      <stop offset=".75" stop-color="#fff" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".22"/>
+    </linearGradient>
+
+    <clipPath id="waveClip">
+      <path d="M70 70 Q180 45 290 75 T510 65 T730 75 T900 65 V525 Q790 550 680 525 T460 535 T240 525 T70 535Z"/>
+    </clipPath>
+
+    <filter id="waveShadow">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="470" cy="555" rx="360" ry="20"
+    fill="#000" opacity=".4" filter="url(#waveShadow)"/>
+
+  <g>
+    <path d="M70 70 Q180 45 290 75 T510 65 T730 75 T900 65 V525 Q790 550 680 525 T460 535 T240 525 T70 535Z"
+      fill="#ddd"/>
+
+    <g clip-path="url(#waveClip)">
+      <g>
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 0;-12 3;0 0;12 -3;0 0"
+          dur="4s"
+          repeatCount="indefinite"/>
+
+        <!-- Franja negra -->
+        <path d="M50 45 H920 V220 Q700 190 500 220 T50 210Z"
+          fill="#050505"/>
+
+        <!-- Franja blanca -->
+        <path d="M50 210 Q250 225 450 210 T920 220 V405 Q700 380 500 410 T50 400Z"
+          fill="#fff"/>
+
+        <!-- Franja verde -->
+        <path d="M50 400 Q250 420 450 400 T920 405 V570 H50Z"
+          fill="#009639"/>
+
+        <!-- Triángulo rojo -->
+        <path d="M55 45 Q220 170 475 300 Q220 430 55 555Z"
+          fill="#ed2939"/>
+
+        <!-- Iluminación de la tela -->
+        <rect x="50" y="40" width="880" height="530"
+          fill="url(#waveShine)"/>
+      </g>
+
+      <!-- Pliegues y sombras animados -->
+      <g>
+        <path d="M170 30 Q105 300 185 570"
+          fill="none" stroke="#000" stroke-width="34" opacity=".16">
+          <animate attributeName="d"
+            values="M170 30 Q105 300 185 570;M188 30 Q245 300 165 570;M170 30 Q105 300 185 570"
+            dur="4s" repeatCount="indefinite"/>
+        </path>
+
+        <path d="M290 30 Q225 300 305 570"
+          fill="none" stroke="#000" stroke-width="34" opacity=".16">
+          <animate attributeName="d"
+            values="M290 30 Q225 300 305 570;M308 30 Q365 300 285 570;M290 30 Q225 300 305 570"
+            dur="4s" repeatCount="indefinite"/>
+        </path>
+
+        <path d="M410 30 Q345 300 425 570"
+          fill="none" stroke="#000" stroke-width="34" opacity=".16">
+          <animate attributeName="d"
+            values="M410 30 Q345 300 425 570;M428 30 Q485 300 405 570;M410 30 Q345 300 425 570"
+            dur="4s" repeatCount="indefinite"/>
+        </path>
+
+        <path d="M530 30 Q465 300 545 570"
+          fill="none" stroke="#000" stroke-width="34" opacity=".16">
+          <animate attributeName="d"
+            values="M530 30 Q465 300 545 570;M548 30 Q605 300 525 570;M530 30 Q465 300 545 570"
+            dur="4s" repeatCount="indefinite"/>
+        </path>
+
+        <path d="M650 30 Q585 300 665 570"
+          fill="none" stroke="#000" stroke-width="34" opacity=".16">
+          <animate attributeName="d"
+            values="M650 30 Q585 300 665 570;M668 30 Q725 300 645 570;M650 30 Q585 300 665 570"
+            dur="4s" repeatCount="indefinite"/>
+        </path>
+
+        <path d="M770 30 Q705 300 785 570"
+          fill="none" stroke="#000" stroke-width="34" opacity=".16">
+          <animate attributeName="d"
+            values="M770 30 Q705 300 785 570;M788 30 Q845 300 765 570;M770 30 Q705 300 785 570"
+            dur="4s" repeatCount="indefinite"/>
+        </path>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
+  <title id="title">Bandera de Palestina</title>
+  <desc id="desc">Tres franjas horizontales negra, blanca y verde, con un triángulo rojo en el lado del mástil.</desc>
+  <rect width="900" height="200" y="0" fill="#000000"/>
+  <rect width="900" height="200" y="200" fill="#FFFFFF"/>
+  <rect width="900" height="200" y="400" fill="#009736"/>
+  <path d="M0 0 L360 300 L0 600 Z" fill="#E4312B"/>
+  <rect x="1.5" y="1.5" width="897" height="597" fill="none" stroke="#D1D5DB" stroke-width="3"/>
+</svg>
