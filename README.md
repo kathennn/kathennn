@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Hi, I am kathennn — Open-source developer" width="100%" />
+  <img src="banner.svg" alt="Hi, I am kathennn — Open-source developer" width="100%" />
 </p>
 
 <h3 align="center">Hi, I am kathennn 👋</h3>
@@ -25,25 +25,25 @@
 </p>
 
 <p align="center">
-  <img src="assets/divider.svg" alt="" width="100%" />
+  <img src="divider.svg" alt="" width="100%" />
 </p>
 
 <p align="center">
-  <img src="assets/title-values.svg" alt="What I care about" width="420" />
+  <img src="title-values.svg" alt="What I care about" width="420" />
 </p>
 
 <p align="center">
-  <img src="assets/card-collab.svg" alt="Collaboration" width="32%" />
-  <img src="assets/card-comm.svg" alt="Communication" width="32%" />
-  <img src="assets/card-impact.svg" alt="Improvements" width="32%" />
+  <img src="card-collab.svg" alt="Collaboration" width="32%" />
+  <img src="card-comm.svg" alt="Communication" width="32%" />
+  <img src="card-impact.svg" alt="Improvements" width="32%" />
 </p>
 
 <p align="center">
-  <img src="assets/divider.svg" alt="" width="100%" />
+  <img src="divider.svg" alt="" width="100%" />
 </p>
 
 <p align="center">
-  <img src="assets/title-merged.svg" alt="Merged contributions" width="420" />
+  <img src="title-merged.svg" alt="Merged contributions" width="420" />
 </p>
 
 <!--
@@ -63,11 +63,9 @@
 <br />
 
 <p align="center">
-  <img src="assets/footer.svg" alt="Thanks for stopping by." width="100%" />
+  <img src="footer.svg" alt="Thanks for stopping by." width="100%" />
 </p>
 
-![Bandera de Palestina](assets/palestina.svg)
 
-
-<img src="assets/palestina.svg" alt="FREE PALESTINE" width="100%" />
+<img src="palestina.svg" alt="FREE PALESTINE" width="100%" />
 </p>
